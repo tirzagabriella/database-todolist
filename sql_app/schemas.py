@@ -3,11 +3,6 @@ from pydantic import BaseModel
 from datetime import datetime
 from pydantic import BaseModel
 
-# Existing imports and schemas...
-
-class Message(BaseModel):
-    message: str
-
 # Todo Schemas
 class TodoBase(BaseModel):
     task: Optional[str] = None
@@ -43,3 +38,7 @@ class User(UserBase):
 
     class Config:
         orm_mode = True
+
+# Response schemas
+class Message(BaseModel):
+    message: str
