@@ -16,7 +16,7 @@ export const addTask = async (task, datetime, uid) => {
       id: crypto.randomUUID(), // Generate a UUID for the new todo item
       task,
       datetime,
-      userId: uid,
+      user_id: uid,
     };
 
     axios.post("http://localhost:8000/todos/create", newTodo).catch((error) => {
@@ -30,6 +30,7 @@ export const addTask = async (task, datetime, uid) => {
 export const editTask = async (taskId, title, completed) => {
   try {
     const payload = {
+      id: taskId,
       task: title,
       completed: completed
     }
