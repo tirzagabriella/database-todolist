@@ -1,5 +1,13 @@
 # database-todolist
 
+## screenshot of todoapp connect with DB
+
+<img src="https://github.com/tirzagabriella/database-todolist/blob/main/screenshot/todolistDB.jpeg" width="500" height="400" />
+
+## screenshot of table DB that connects with todoapp
+
+<img src="https://github.com/tirzagabriella/database-todolist/blob/main/screenshot/todolistTableDB.jpeg" width="500" height="400" />
+
 ## screenshot of fastAPI
 
 <img src="https://github.com/tirzagabriella/database-todolist/blob/main/screenshot/fastAPI.jpeg" width="500" height="400" />
